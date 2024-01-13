@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+
+.clockcontainer {
+    position: relative;
+    height: 50vh;
+    width: 50vh;
+    background: url("clockimg.jpeg") no-repeat;
+    background-size: 100%;
+    margin: auto;
+}
+
+#hour,#min,#sec {
+    position: absolute;
+    background-color: black;
+    border-radius: 2vh;
+    transform-origin: bottom;
+}
+
+#hour {
+    width: 2%;
+    height: 17%;
+    left: 49.5%;
+    top: 36%;
+   
+
+}
+
+#min {
+    width: 1%;
+    height: 22%;
+    left: 49.5%;
+    top: 32%;
+    
+}
+
+#sec {
+    width: 0.5%;
+    height: 30%;
+    left: 49.5%;
+    top: 24%;
+    
+}
